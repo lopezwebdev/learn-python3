@@ -1,0 +1,12 @@
+#script.py
+
+my_age = 53
+half_my_age = my_age / 2
+greeting = "Hola, my name is "
+name = "Esteban"
+greeting_with_name = greeting + " " + name + "."
+
+print(my_age)
+print(half_my_age)
+print(greeting + " " + name + ".")
+print(greeting_with_name)
