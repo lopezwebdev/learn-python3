@@ -1,0 +1,37 @@
+#space.py
+
+print("I have information for the following planets:\n")
+
+print("   1. Venus   2. Mars    3. Jupiter")
+print("   4. Saturn  5. Uranus  6. Neptune\n")
+ 
+weight = 185
+planet = 3
+
+# Write an if statement below:
+
+print("I have information for the following planets:\n")
+
+print("   1. Venus   2. Mars    3. Jupiter")
+print("   4. Saturn  5. Uranus  6. Neptune\n")
+
+weight = 185
+planet = 3
+
+# Write an if statement to calculate weight on the selected planet
+if planet == 1:
+    weight = weight * 0.91  # Venus gravity factor
+elif planet == 2:
+    weight = weight * 0.38  # Mars gravity factor
+elif planet == 3:
+    weight = weight * 2.34  # Jupiter gravity factor
+elif planet == 4:
+    weight = weight * 1.06  # Saturn gravity factor
+elif planet == 5:
+    weight = weight * 0.92  # Uranus gravity factor
+elif planet == 6:
+    weight = weight * 1.19  # Neptune gravity factor
+else:
+    print("Invalid planet selection.")
+
+print(f"Your weight on planet {planet} is {weight:.2f} pounds.")
