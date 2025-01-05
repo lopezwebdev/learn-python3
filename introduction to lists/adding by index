@@ -1,0 +1,10 @@
+front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
+
+# Your code below: 
+front_display_list.insert(0, "Pineapple")
+print(front_display_list)
+
+# store_line = ["Karla", "Maxium", "Martim", "Isabella"]
+
+# store_line.insert(2, "Viktor")
+# print(store_line)
